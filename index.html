@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Cost calculator for the painting</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<form class="form calc_form">
+  <div class="calc column">
+    <h2>Calculate the cost and get a 30% discount</h2>
+    <select id="size">
+      <option value>Choose the size of the painting</option>
+      <option value="500">40x50</option>
+      <option value="1000">50x70</option>
+      <option value="1500">70x70</option>
+      <option value="2000">70x100</option>
+    </select>
+    <select id="material">
+      <option value>Select the material of the painting</option>
+      <option value="1">Fiber canvas</option>
+      <option value="1.2">Linen canvas</option>
+      <option value="1.5">Natural cotton canvas</option>
+    </select>
+    <select id="options">
+      <option value="0">Additional services</option>
+      <option value="1000">Art gel coating</option>
+      <option value="2000">Express production</option>
+      <option value="500">Delivery of finished works</option>
+    </select>
+    <input type="text" class="promocode" placeholder="Enter your promo code">
+    <div class="calc-price">To calculate, you need to choose the size and material of the painting</div>
+  </div>
+</form>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>

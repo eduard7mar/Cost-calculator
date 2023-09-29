@@ -1,0 +1,39 @@
+.column {
+  display: flex;
+  flex-direction: column;
+}
+.calc h2 {
+  background-color: #f7e7e6;
+  padding: 2rem;
+  text-align: center;
+}
+.calc select {
+  opacity: 0.6;
+  font-family: 'Circe Extra Bold', sans-serif;
+  margin-left: 2rem;
+  appearance: none;
+  border: none;
+  display: block;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+.calc .promocode {
+  opacity: 0.6;
+  font-family: 'Circe Extra Bold', sans-serif;
+  margin-left: 2rem;
+  appearance: none;
+  border: none;
+  display: block;
+  font-size: 1.2rem;
+  padding: 1rem 0;
+}
+.calc #size {
+  margin-top: 1rem;
+}
+.calc-price {
+  background-color: #f7e7e6;
+  padding: 2rem;
+  text-align: center;
+  position: relative;
+  z-index: -1000;
+}
